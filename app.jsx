@@ -11,12 +11,10 @@ export default function App (props) {
         <div>
             <Head>
                 <title>Christmas Lights</title>
-            </Head>
-            <div id={styles.container}>
-                <Header></Header>
-                <Main></Main>
-                <Footer></Footer>
-            </div>
+            </Head>            
+            <Header></Header>                        
+            <Main></Main>
+            <Footer></Footer>          
         </div>
     )
 }

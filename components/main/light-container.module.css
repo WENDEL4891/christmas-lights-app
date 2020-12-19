@@ -1,3 +1,5 @@
-#container {
-    display: flex;
+.lightsContainer {
+    height: 110px;
+    /* line-height: 110px; */
+    background-color: green;
 }

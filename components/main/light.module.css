@@ -1,0 +1,15 @@
+.lightContainer {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%)
+}
+
+.light {
+    width: 25px;
+    height: 25px;
+    background-color: #444;
+    margin: 8px;
+    border-radius: 50%;
+    /* display: inline-block; */
+}

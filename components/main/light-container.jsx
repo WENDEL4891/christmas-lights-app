@@ -5,7 +5,7 @@ import Light from './light'
 
 export default function LightContainer (props) {
     return (
-        <div id={styles.container}>
+        <div className={styles.lightsContainer}>
             <Light></Light>
             <Light></Light>
             <Light></Light>
