@@ -2,6 +2,7 @@ import styles from './main.module.css'
 
 import ButtonPanel from './button-panel'
 import LightContainer from './light-container'
+// import LightContainerLabels from './light-container-labels'
 
 export default function Main (props) {
     return (
@@ -9,7 +10,8 @@ export default function Main (props) {
             <button>Start</button>
             <ButtonPanel title="Interval"></ButtonPanel>
             <ButtonPanel title="Intensity"></ButtonPanel>            
-            <LightContainer></LightContainer>            
+            {/* <LightContainerLabels></LightContainerLabels> */}
+            <LightContainer></LightContainer>
         </div>
     )
 }
