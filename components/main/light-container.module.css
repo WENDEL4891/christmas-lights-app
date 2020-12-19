@@ -1,3 +1,15 @@
 #container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 400px;
+    margin: 10px 0;
+}
+
+#containerMaior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
 }

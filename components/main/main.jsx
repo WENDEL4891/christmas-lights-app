@@ -5,11 +5,11 @@ import LightContainer from './light-container'
 
 export default function Main (props) {
     return (
-        <div id={styles.container}>
+        <div    id={styles.container}>
             <button>Start</button>
             <ButtonPanel title="Interval"></ButtonPanel>
             <ButtonPanel title="Intensity"></ButtonPanel>            
-            <LightContainer></LightContainer>
+            <LightContainer></LightContainer>            
         </div>
     )
 }

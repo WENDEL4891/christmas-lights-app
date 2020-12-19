@@ -11,10 +11,11 @@ export default function App (props) {
         <div>
             <Head>
                 <title>Christmas Lights</title>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
             </Head>
             <div id={styles.container}>
                 <Header></Header>
-                <Main></Main>
+                <Main ></Main>                
                 <Footer></Footer>
             </div>
         </div>
