@@ -25,10 +25,5 @@
 .buttonsPanelContainer {
     margin-top: 20px;
     display: flex;
-<<<<<<< HEAD
-    border: 1px red solid;
-    flex-grow: 3;
-=======
     justify-content: space-around;
->>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
 }

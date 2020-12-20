@@ -11,20 +11,10 @@ export default function App (props) {
         <div>
             <Head>
                 <title>Christmas Lights</title>
-<<<<<<< HEAD
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-            </Head>
-            <div id={styles.container}>
-                <Header></Header>
-                <Main ></Main>                
-                <Footer></Footer>
-            </div>
-=======
             </Head>            
             <Header></Header>                        
             <Main></Main>
             <Footer></Footer>          
->>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
         </div>
     )
 }

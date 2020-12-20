@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-#container {
-    flex-grow: 1;
-    display: flex;
-    align-items: flex-end;
-=======
 .footerContainer {
     position: fixed;
     bottom: 0px;
@@ -22,5 +16,4 @@
 .wendel {
     font-weight: bold;
     color: #00a
->>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
 }

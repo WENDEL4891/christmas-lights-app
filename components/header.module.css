@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#container {
-    flex-grow: 1;
-=======
 .headerContainer {
     margin: 5px;
     width: 70%;
@@ -36,5 +32,4 @@
     display: inline-block;
     border: 1px solid #666;
     border-radius: 20%;
->>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
 }
