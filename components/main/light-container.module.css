@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #container {
     display: flex;
     justify-content: space-around;
@@ -12,4 +13,12 @@
     flex-direction: column;
     justify-content: center;
     /* border: 2px solid red; */
+=======
+.lightsContainer {
+    margin-top: 35px;
+    padding: 15px;
+    height: 110px;
+    background-color: yellow;
+    text-align: center;
+>>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
 }

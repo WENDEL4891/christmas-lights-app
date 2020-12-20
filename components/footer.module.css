@@ -1,5 +1,26 @@
+<<<<<<< HEAD
 #container {
     flex-grow: 1;
     display: flex;
     align-items: flex-end;
+=======
+.footerContainer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #ddd;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 5px;
+}
+
+.footerText {
+    font-size: 1.2rem;
+}
+
+.wendel {
+    font-weight: bold;
+    color: #00a
+>>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
 }

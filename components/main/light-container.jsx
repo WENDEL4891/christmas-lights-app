@@ -7,6 +7,7 @@ let numbers = [1, 2, 3, 4, 5, 6, 7]
 
 export default function LightContainer (props) {
     return (
+<<<<<<< HEAD
         
         <div id={styles.containerMaior}>
 
@@ -40,6 +41,16 @@ export default function LightContainer (props) {
                 })}            
             </div>
             
+=======
+        <div className={styles.lightsContainer}>
+            <Light></Light>
+            <Light></Light>
+            <Light></Light>
+            <Light></Light>
+            <Light></Light>
+            <Light></Light>
+            <Light></Light>
+>>>>>>> recomecando/estilizandoComPositions_Relative_e_Fixed
         </div>
 
     )
