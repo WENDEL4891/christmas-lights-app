@@ -1,3 +1,29 @@
-#container {
+.mainContainer {
+    margin-top: 50px;
+    position: relative;
+    width: 55%;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color: #7FDBFF;
+    box-shadow: 0 0 5px #2ECC40;
+    border-radius: 10px;
+}
+
+.startButton {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 1.3rem;
+    width: 140px;
+    padding: 10px 0;
+    border: none;
+    background-color: #0074D9;
+    color: #fff;
+}
+
+.buttonsPanelContainer {
+    margin-top: 20px;
     display: flex;
+    justify-content: space-around;
 }

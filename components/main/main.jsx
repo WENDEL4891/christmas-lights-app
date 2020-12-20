@@ -5,10 +5,12 @@ import LightContainer from './light-container'
 
 export default function Main (props) {
     return (
-        <div id={styles.container}>
-            <button>Start</button>
-            <ButtonPanel title="Interval"></ButtonPanel>
-            <ButtonPanel title="Intensity"></ButtonPanel>            
+        <div className={styles.mainContainer}>
+            <button type='button' className={styles.startButton} >Start</button>
+            <div className={styles.buttonsPanelContainer}>
+                <ButtonPanel title="Interval"></ButtonPanel>
+                <ButtonPanel title="Intensity"></ButtonPanel>
+            </div>
             <LightContainer></LightContainer>
         </div>
     )

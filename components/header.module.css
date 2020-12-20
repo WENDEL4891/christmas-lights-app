@@ -1,6 +1,4 @@
 .headerContainer {
-    padding: 10px;
-    border-bottom: 2px solid #bbb;
     margin: 5px;
     width: 70%;
     position: relative;
@@ -12,4 +10,26 @@
     font-size: 2.5rem;
     text-align: center;
     font-weight: 600;
+    border-bottom: 2px solid #666;
+    padding: 10px;
+}
+
+.horizontalRow {
+    border-top: 1px solid #888;
+    width: 97%;
+}
+
+.imgContainer {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    border: 1px solid #ccc;
+    border-radius: 20%;
+}
+
+.lightsImg {
+    display: inline-block;
+    border: 1px solid #666;
+    border-radius: 20%;
 }
