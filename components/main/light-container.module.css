@@ -1,7 +1,43 @@
 .lightsContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 35px;
-    padding: 15px;
+    /* padding: 15px; */
+    /* height: 50%; */
+    background-color: #ffd;
+    /* text-align: center; */
+}
+
+.lightsLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 110px;
-    background-color: yellow;
-    text-align: center;
+}
+
+.space {
+    background-color: #ffd;
+    /* flex-basis: 40px; */
+    width: 80px;
+    border: none;
+    flex-grow: 5;
+}
+
+.btn {
+    color: white;
+    background-color: #0074D9;
+    border: none;
+    font-size: 1.2rem;
+    width: 80px;
+    flex-grow: 1;
+}
+
+.btnEditColor {
+    margin-top: 5px;
+}
+
+.btnEditSize {
+    margin-bottom: 5px;
 }

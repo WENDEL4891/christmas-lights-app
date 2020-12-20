@@ -10,3 +10,15 @@
     margin: 8px;
     border-radius: 50%;
 }
+
+.bg_green {
+    background-color: green;
+}
+
+.editColorNotVisible {
+    display: none;
+}
+
+.editSizeNotVisible {
+    display: none;
+}
