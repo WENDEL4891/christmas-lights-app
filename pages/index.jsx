@@ -1,7 +1,5 @@
+import App from './app'
+
 export default function Index() {
-    return (
-        <div>
-            <h1>Funcionando...</h1>
-        </div>
-    )
+    return <App />
 }

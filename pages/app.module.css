@@ -1,0 +1,35 @@
+.gridItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: #f99;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #9f9;
+}
+
+.main {
+    grid-area: main;
+    background-color: #99f;
+    /* height: 60vh; */
+    /* overflow: hidden; */
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #ff9;
+}
+
+.containerApp {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 'header header' 'nav main' 'footer footer';
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 20% 1fr 10%;
+}

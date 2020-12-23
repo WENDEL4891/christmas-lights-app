@@ -1,0 +1,15 @@
+.headerContainer {
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    background-color: #fff;
+    flex-grow: 5;
+}
+
+.imgLights {
+    flex-grow: 1;
+    border-radius: 10px;
+}
