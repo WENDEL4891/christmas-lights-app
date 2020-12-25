@@ -1,0 +1,15 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainItems {
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    line-height: 80px;
+    text-align: center;
+}

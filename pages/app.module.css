@@ -6,7 +6,7 @@
 
 .header {
     grid-area: header;
-    background-color: #f99;
+    /* background-color: #f99; */
 }
 
 .nav {
@@ -31,5 +31,13 @@
     height: 100vh;
     grid-template-areas: 'header header' 'nav main' 'footer footer';
     grid-template-columns: 30% 1fr;
-    grid-template-rows: 20% 1fr 10%;
+    grid-template-rows: 2fr 3fr 5fr 1fr;
+}
+
+@media(max-width: 1000px) {
+    .containerApp {
+        grid-template-areas: 'header' 'nav' 'main' 'footer';
+        grid-template-columns: 1fr;
+        /* grid-template-rows:  */
+    }
 }
