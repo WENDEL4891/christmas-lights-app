@@ -16,7 +16,10 @@
 
 .main {
     grid-area: main;
-    background-color: #99f;
+    /* background-color: #99f; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
     /* height: 60vh; */
     /* overflow: hidden; */
 }
@@ -29,9 +32,9 @@
 .containerApp {
     display: grid;
     height: 100vh;
-    grid-template-areas: 'header header' 'nav main' 'footer footer';
-    grid-template-columns: 30% 1fr;
-    grid-template-rows: 2fr 3fr 5fr 1fr;
+    grid-template-areas: 'header' 'main' 'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 5fr 1fr;
 }
 
 @media(max-width: 1000px) {

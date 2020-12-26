@@ -1,0 +1,57 @@
+.navItemsContainer {
+    /* background-color: #f00; */
+    /* width: 100%; */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnStart {
+    border: none;
+    font-size: 1.3rem;
+    width: 80px;
+    margin: 10px;
+    background-color: #3A9AD9;
+    padding: 7px;
+    color: #fff;
+}
+
+.inputsAndLabels {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: 2px solid #bbb;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    height: 140px;
+    width: 190px;
+    font-size: 1.3rem;
+}
+
+.labels {
+    width: 85px;
+    /* background-color: #f00; */
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.controlsLegend {
+    text-align: center;
+    background-color: #999;
+    border: 2px solid #666;
+    padding: 3px;
+    color: #fff;
+}
+
+.input {
+    font-size: 1.3rem;
+    width: 60px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #bbb;
+}

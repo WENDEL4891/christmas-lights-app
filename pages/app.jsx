@@ -2,10 +2,10 @@ import styles from './app.module.css'
 
 import Head from 'next/head'
 
-import Header from './components/header'
-import Nav from './components/nav'
-import Main from './components/main'
-import Footer from './components/footer'
+import Header from './components/layout/header'
+// import Nav from './components/layout/nav'
+import Main from './components/layout/main'
+import Footer from './components/layout/footer'
 
 export default function App() {
     return (
@@ -14,7 +14,7 @@ export default function App() {
                 <title>Christmas lights</title>                
             </Head>
             <Header></Header>
-            <Nav></Nav>
+            {/* <Nav></Nav> */}
             <Main></Main>
             <Footer></Footer>            
         </div>

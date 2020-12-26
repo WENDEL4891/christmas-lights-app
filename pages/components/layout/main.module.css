@@ -6,10 +6,23 @@
     align-items: center;
 }
 
-.mainItems {
+.mainContents {
+    width: 60vw;
+    /* background-color: #fff; */
+}
+
+@media(max-width: 1400px) {
+    .mainContents {
+        width: 95vw;
+        /* background-color: #fff; */
+    }
+}
+
+
+/* .mainItems {
     height: 80px;
     width: 100%;
     border: 1px solid black;
     line-height: 80px;
     text-align: center;
-}
+} */

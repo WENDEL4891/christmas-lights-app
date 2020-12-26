@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import stylesApp from '../app.module.css'
+import stylesApp from '../../app.module.css'
 import styles from './header.module.css'
 
 export default function Header() {

@@ -1,4 +1,4 @@
-import stylesApp from '../app.module.css'
+import stylesApp from '../../app.module.css'
 
 export default function Footer() {
     return (
