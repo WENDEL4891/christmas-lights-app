@@ -1,13 +1,18 @@
 .headerContainer {
+    display: flex;
     justify-content: center;
+    width: 60%;
+    /* background-color: #0f0;
+    border: 1px solid #000; */
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 1.7rem;
-    background-color: #fff;
-    flex-grow: 3;
-    /* border: 1px solid red; */
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .titleText {
@@ -35,7 +40,10 @@
 }
 
 .imgContainer {
-    flex-grow: 1
+    flex-grow: 1;
+    /* background-color: #00f; */
+    display: flex;
+    justify-content: center;
 }
 
 .imgBorder {
@@ -50,8 +58,11 @@
     border-radius: 20px;
 }
 
-@media(max-width: 650px) {
+@media(max-width: 1200px) {
     .headerContainer {
         flex-direction: column;
+    }
+    .title {
+        font-size: 1.4rem;
     }
 }

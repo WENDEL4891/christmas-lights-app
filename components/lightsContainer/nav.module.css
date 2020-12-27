@@ -48,10 +48,16 @@
     color: #fff;
 }
 
-.input {
+.inputNumber {
     font-size: 1.3rem;
     width: 60px;
     text-align: center;
     padding: 3px;
+    border: 1px solid #bbb;
+}
+
+.inputColor {
+    height: calc(1.3rem + 3px);
+    width: 60px;
     border: 1px solid #bbb;
 }

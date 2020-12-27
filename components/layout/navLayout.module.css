@@ -1,0 +1,46 @@
+.navLayoutContainer {
+    width: 300px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    /* height: 100px; */
+    border: 1px solid black;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.qtdPaineis {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 70px;
+    border: 3px solid #ddd;
+    margin: 6px;
+}
+
+.display_none {
+    display: none
+}
+
+.error {
+    border: 3px solid #f00;
+    background-color: #f88;
+    font-size: 1rem;
+    padding: 3px;
+    margin: 5px;
+    color: #444;
+}
+
+.submit {
+    font-size: 1.3rem;
+    padding: 5px;
+    border: 2px solid #000;
+    background-color: #ddd;
+}

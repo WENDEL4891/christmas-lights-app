@@ -11,6 +11,7 @@ export default function SevenLights(props) {
             <div className={styles.light}></div>
             <div className={styles.light}></div>
             <div className={styles.light}></div>
+            <div>{props.power ? 'true' : 'false'}</div>
         </div>
     )
 }

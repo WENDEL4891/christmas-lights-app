@@ -7,11 +7,12 @@
 .header {
     grid-area: header;
     /* background-color: #f99; */
+    /* height: 55vh; */
 }
 
-.nav {
-    grid-area: nav;
-    background-color: #9f9;
+.navLayout {
+    grid-area: navLayout;
+    /* background-color: #9f9; */
 }
 
 .main {
@@ -26,21 +27,29 @@
 
 .footer {
     grid-area: footer;
-    background-color: #ff9;
+    /* height: 20px; */
+    /* background-color: #00f; */
 }
 
 .containerApp {
     display: grid;
     height: 100vh;
-    grid-template-areas: 'header' 'main' 'footer';
+    width: 100vw;
+    /* background-color: #f00; */
+    grid-template-areas: 'header' 'navLayout' 'main' 'footer';
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 35px;
 }
 
-@media(max-width: 1000px) {
+
+/* @media(max-width: 611px) {
     .containerApp {
-        grid-template-areas: 'header' 'nav' 'main' 'footer';
-        grid-template-columns: 1fr;
-        /* grid-template-rows:  */
+        grid-template-rows: 250px 190px 1fr 35px;
     }
 }
+
+@media(min-width: 1205px) {
+    .containerApp {
+        grid-template-rows: 135px 190px 1fr 35px;
+    }
+} */
